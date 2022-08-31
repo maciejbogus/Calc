@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>KALKULATOR</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="case">
+            <input type="text" class="button" id="charField">
+            <input id="display" type="text" onkeyup="isNumber()">
+            <input id="c" class="button" type="button" value="c" onclick="clearDisplay()"><br>
+            <input id="b1" class="button num" type="button" value="1"  onclick="enterValue('b1')">
+            <input id="b2" class="button num" type="button" value="2" onclick="enterValue('b2')">
+            <input id="b3" class="button num" type="button" value="3" onclick="enterValue('b3')">
+            <input id="add" class="button" type="button" value="+" onclick="operation('add')"><br>
+            <input id="b4" class="button num" type="button" value="4" onclick="enterValue('b4')">
+            <input id="b5" class="button num" type="button" value="5" onclick="enterValue('b5')">
+            <input id="b6" class="button num" type="button" value="6" onclick="enterValue('b6')">
+            <input id="sub" class="button" type="button" value="-" onclick="operation('sub')"><br>
+            <input id="b7" class="button num" type="button" value="7" onclick="enterValue('b7')">
+            <input id="b8" class="button num" type="button" value="8" onclick="enterValue('b8')">
+            <input id="b9" class="button num" type="button" value="9" onclick="enterValue('b9')">
+            <input id="mtp" class="button" type="button" value="*" onclick="operation('mtp')"><br>
+            <input id="equ" class="button" type="button" value="=" onclick="isEqual()">        
+            <input id="b0" class="button num" type="button" value="0" onclick="enterValue('b0')">
+            <input id="bcomma" class="button" type="button" value="." onclick="enterValue('bcomma')">
+            <input id="dvs" class="button" type="button" value="/" onclick="operation('dvs')"><br>
+        </div>
+    </body>
+</html>
